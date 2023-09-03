@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	float h;
+	printf("Enter the height (in cms): ");
+	scanf("%f",&h);
+	
+	if(h<150)
+	{printf("\nCategory: Dwarf\n");}
+	else if(h>=150 && h<=180)
+	{printf("Category: Average\n");}
+	else{printf("Category: Taller");}
+	
+	return 0;
+}
